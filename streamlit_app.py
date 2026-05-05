@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # 1. AI 설정 (AI Studio에서 만든 설정 그대로)
-genai.configure(api_key="AIzaSyAo8XXICqLAkRGTbNNpzT7xuCYN0z6k38Q")
+genai.configure(api_key="AIzaSyDFjkNKawokylB-XHwDUYFM1vi-4otR288")
 model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
 # 2. 웹 화면 꾸미기
