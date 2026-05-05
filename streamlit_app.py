@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # 1. AI 설정 (AI Studio에서 만든 설정 그대로)
 genai.configure(api_key="AIzaSyDltq-V982BHHN2goae9kPTs2yg-qYzKjs")
-model = genai.GenerativeModel('gemini-1.5-flash-latest')
+model = genai.GenerativeModel('gemini-pro')
 
 # 2. 웹 화면 꾸미기
 st.set_page_config(page_title="R&D 과제 신청 가이드", page_icon="🤖")
